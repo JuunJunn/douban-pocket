@@ -1,0 +1,72 @@
+.content-item {
+    height: 160px;
+    border-bottom: 10px solid #f0f0f0;
+    padding: 10px;
+    background: white;
+    display: flex;
+}
+
+.content-item .img{
+    width: 120px;
+    flex-grow: 0;
+}
+
+.content-item .item-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 200px;
+    overflow: hidden;
+}
+.item-infor .title {
+    margin: 10px 0px;
+
+}
+.item-infor .title, .item-infor .author {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.item-infor .tags {
+    height: 34px;
+    text-overflow: clip;
+    overflow: hidden;
+    padding: 0px 20px;
+    font-size: 12px;
+    word-spacing: nowrap;
+}
+
+.item-infor .tags .genres {
+    display: inline-block;
+    background: red;
+    margin: 0px 3px;
+    padding: 0px 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.item-infor .average {
+    padding: 3px;
+    background: black;
+    color: white;
+    font-size: 12px;
+}
+.item-infor .author {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.item-infor .time {
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+}
+
+.item-infor .year {
+    font-size: 14px;
+    margin: 5px 0px;
+}

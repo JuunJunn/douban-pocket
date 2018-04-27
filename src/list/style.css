@@ -1,0 +1,5 @@
+.content-list {
+    height: 100px;
+    overflow: scroll;
+    flex-grow: 2
+}

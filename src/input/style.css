@@ -1,0 +1,30 @@
+.search {
+    padding: 10px 0px 10px 10px;
+    background: black;
+    opacity: 0.72;
+}
+
+.search input,.search button {
+    height: 25px;
+}
+
+.search input {
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    padding: 0px;
+    outline: 0;
+    font-size: 14px;
+}
+
+.search button {
+    margin-left: 10px;
+    width: 50px;
+    padding: 0px;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    outline: 0px;
+}

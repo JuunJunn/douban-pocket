@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url(./fonts/icomoon.eot?v71iln);
+    src:  url(./fonts/icomoon.eot?v71iln#iefix) format('embedded-opentype'),
+      url(./fonts/icomoon.ttf?v71iln) format('truetype'),
+      url(./fonts/icomoon.woff?v71iln) format('woff'),
+      url(./fonts/icomoon.svg?v71iln#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 20px;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-music:before {
+    content: "\e911";
+  }
+  .icon-movie:before {
+    content: "\e913";
+  }
+  .icon-books:before {
+    content: "\e91f";
+  }
+  
+
+.tab-container {
+    background: white;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(175, 175, 175)
+}
+.tab-container .tab-item {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
